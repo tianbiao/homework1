@@ -1,0 +1,69 @@
+body header{
+  overflow: hidden;
+  width: 900px;
+  margin-left: 200px;
+  margin-right: 50px;
+}
+
+body header .header-top{
+  float: left;
+  width: 900px;
+  background:rgb(237, 235, 236);
+}
+
+body header .header-top ul.header-top-left{
+  float: left;
+}
+
+body header .header-top ul.header-top-left a.header-top-left{
+  color: rgb(31, 26, 250);
+}
+
+body header  .header-top ul.header-top-left a.header-top-left:hover{
+  color: red;
+}
+
+body header .header-top ul.header-top-right{
+  float: right;
+}
+
+body header .header-top ul.header-top-right a.header-top-right{
+  color: rgb(171, 23, 169);
+}
+
+body header  .header-top ul.header-top-right a.header-top-right:hover{
+  color: red;
+}
+
+body header .header-left{
+  float: left;
+  width: 200px;
+  height: 300px;
+  margin-top:20px;
+  background:rgb(237, 235, 236);
+}
+
+body header .header-left a{
+  text-decoration: none;
+  color: black;
+}
+
+body header  a:hover{
+  color: red;
+}
+
+body header .header-center img{
+   float: left;
+   width: 300px;
+   height: 300px;
+   margin-top:20px;
+   margin-left:40px;
+}
+
+body header .header-right{
+   float: left;
+   width: 200px;
+   height: 300px;
+   margin-top:20px;
+   margin-left:40px;
+}
