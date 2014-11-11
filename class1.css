@@ -52,7 +52,13 @@ body header  a:hover{
   color: red;
 }
 
-body header .header-center img{
+body header .header-center{
+  float: left;
+  width: 340px;
+  height: 320px;
+}
+
+body header .header-middle img{
    float: left;
    width: 300px;
    height: 300px;
@@ -66,4 +72,94 @@ body header .header-right{
    height: 300px;
    margin-top:20px;
    margin-left:40px;
+}
+
+body  .tbody-1{
+  overflow: hidden;
+  width: 900px;
+  height:440px;
+  margin-left: 200px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+body  .tbody-1-left{
+  float: left;
+  width: 300px;
+  height:400px;
+}
+
+body  .tbody-1-middle{
+  float: left;
+  width: 300px;
+  height:400px;
+}
+
+body  .tbody-1-right{
+  float: left;
+  width: 300px;
+  height:400px;
+}
+
+body  .tbody-1 img{
+  float: left;
+  width: 300px;
+  height: 300px;
+}
+
+body  .tbody-1 a{
+  text-decoration: none;
+  color: black;
+}
+
+body .tbody-1  a:hover{
+  color: red;
+}
+
+body  .tbody-2{
+  overflow: hidden;
+  width: 900px;
+  height:440px;
+  margin-left: 200px;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+body  .tbody-2 img{
+  float: left;
+  width: 300px;
+  height: 300px;
+}
+
+body  .tbody-2 a{
+  text-decoration: none;
+  color: black;
+}
+
+body .tbody-2  a:hover{
+  color: red;
+}
+
+body  .tbody-3{
+  overflow: hidden;
+  width: 900px;
+  height:440px;
+  margin-left: 200px;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+body  .tbody-3 img{
+  float: left;
+  width: 300px;
+  height: 300px;
+}
+
+body  .tbody-3 a{
+  text-decoration: none;
+  color: black;
+}
+
+body .tbody-3  a:hover{
+  color: red;
 }
