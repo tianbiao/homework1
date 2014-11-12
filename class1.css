@@ -1,18 +1,16 @@
 body header{
   overflow: hidden;
-  width: 900px;
-  margin-left: 200px;
-  margin-right: 50px;
 }
 
 body header .header-top{
   float: left;
-  width: 900px;
+  width: 100%;
   background:rgb(237, 235, 236);
 }
 
 body header .header-top ul.header-top-left{
   float: left;
+  margin-left: 160px;
 }
 
 body header .header-top ul.header-top-left a.header-top-left{
@@ -25,6 +23,7 @@ body header  .header-top ul.header-top-left a.header-top-left:hover{
 
 body header .header-top ul.header-top-right{
   float: right;
+  margin-right: 200px;
 }
 
 body header .header-top ul.header-top-right a.header-top-right{
@@ -39,7 +38,8 @@ body header .header-left{
   float: left;
   width: 200px;
   height: 300px;
-  margin-top:20px;
+  margin-left: 200px;
+  margin-top: 20px;
   background:rgb(237, 235, 236);
 }
 
@@ -162,4 +162,28 @@ body  .tbody-3 a{
 
 body .tbody-3  a:hover{
   color: red;
+}
+
+body footer{
+  overflow: hidden;
+  float: left;
+  width: 1333px;
+  height: 320px;
+  margin-top: 20px;
+  background:rgb(237, 235, 236);
+}
+
+body footer .footer-left{
+  float: left;
+  width: 450px;
+  margin-left: 200px;
+}
+
+body footer .footer-right{
+  float: left;
+  width: 450px;
+}
+
+body footer .footer-right img{
+  width: 450px;
 }
