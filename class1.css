@@ -1,3 +1,8 @@
+body{
+  width:1349px;
+  margin: auto;
+}
+
 body header{
   overflow: hidden;
 }
@@ -8,33 +13,29 @@ body header .header-top{
   background:rgb(237, 235, 236);
 }
 
-body header .header-top ul.header-top-left{
+body header .header-top  span.header-top-left{
   float: left;
-  margin-left: 160px;
+  margin-left:200px;
 }
 
-body header .header-top ul.header-top-left a.header-top-left{
+body header .header-top  a.header-top-left{
   color: rgb(31, 26, 250);
 }
 
-body header  .header-top ul.header-top-left a.header-top-left:hover{
-  color: red;
-}
-
-body header .header-top ul.header-top-right{
+body header .header-top  span.header-top-right{
   float: right;
-  margin-right: 200px;
+  margin-right:200px;
 }
 
-body header .header-top ul.header-top-right a.header-top-right{
+body header .header-top a.header-top-right{
   color: rgb(171, 23, 169);
 }
 
-body header  .header-top ul.header-top-right a.header-top-right:hover{
+body header .header-top a:hover{
   color: red;
 }
 
-body header .header-left{
+body header table.header-left{
   float: left;
   width: 200px;
   height: 300px;
@@ -48,14 +49,12 @@ body header .header-left a{
   color: black;
 }
 
-body header  a:hover{
+body header .header-left a:hover{
   color: red;
 }
 
-body header .header-center{
-  float: left;
-  width: 340px;
-  height: 320px;
+body header .header-left h4{
+  margin-left: 20px;
 }
 
 body header .header-middle img{
@@ -74,6 +73,11 @@ body header .header-right{
    margin-left:40px;
 }
 
+body header .header-right p{
+  float: right;
+  height: 18px;
+}
+
 body  .tbody-1{
   overflow: hidden;
   width: 900px;
@@ -83,10 +87,20 @@ body  .tbody-1{
   margin-top: 50px;
 }
 
+body  h3{
+  height: 5px;
+}
+
 body  .tbody-1-left{
   float: left;
   width: 300px;
   height:400px;
+}
+
+body  .tbody-1-left a.picture{
+  float: left;
+  width: 300px;
+  height: 300px;
 }
 
 body  .tbody-1-middle{
