@@ -4,7 +4,7 @@ body{
 }
 
 body header{
-  overflow: hidden;
+  overflow: auto;
 }
 
 body header .header-top{
@@ -75,12 +75,13 @@ body header .header-right{
 
 body header .header-right p{
   float: right;
+  white-space: nowrap;
   height: 18px;
 }
 
-body  .tbody-1{
-  overflow: hidden;
-  width: 900px;
+body .tbody-1{
+  overflow: auto;
+  width: 910px;
   height:440px;
   margin-left: 200px;
   margin-right: 50px;
@@ -89,27 +90,40 @@ body  .tbody-1{
 
 body  h3{
   height: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-body  .tbody-1-left{
+body  hr{
+  margin-top: 14px;
+  margin-bottom: 0px;
+  border-top-width: 3px;
+}
+
+body  table.tbody-1-left{
   float: left;
   width: 300px;
   height:400px;
 }
 
-body  .tbody-1-left a.picture{
-  float: left;
-  width: 300px;
-  height: 300px;
+body  table.tbody-1-left p{
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-body  .tbody-1-middle{
+body  table.tbody-1-left a.picture{
+  float: left;
+  width: 290px;
+  height: 290px;
+}
+
+body  table.tbody-1-middle{
   float: left;
   width: 300px;
   height:400px;
 }
 
-body  .tbody-1-right{
+body  table.tbody-1-right{
   float: left;
   width: 300px;
   height:400px;
@@ -117,8 +131,8 @@ body  .tbody-1-right{
 
 body  .tbody-1 img{
   float: left;
-  width: 300px;
-  height: 300px;
+  width: 290px;
+  height: 290px;
 }
 
 body  .tbody-1 a{
@@ -131,8 +145,8 @@ body .tbody-1  a:hover{
 }
 
 body  .tbody-2{
-  overflow: hidden;
-  width: 900px;
+  overflow: auto;
+  width: 910px;
   height:440px;
   margin-left: 200px;
   margin-right: 50px;
@@ -141,8 +155,7 @@ body  .tbody-2{
 
 body  .tbody-2 img{
   float: left;
-  width: 300px;
-  height: 300px;
+  width: 290px;
 }
 
 body  .tbody-2 a{
@@ -155,8 +168,8 @@ body .tbody-2  a:hover{
 }
 
 body  .tbody-3{
-  overflow: hidden;
-  width: 900px;
+  overflow: auto;
+  width: 910px;
   height:440px;
   margin-left: 200px;
   margin-right: 50px;
@@ -165,8 +178,8 @@ body  .tbody-3{
 
 body  .tbody-3 img{
   float: left;
-  width: 300px;
-  height: 300px;
+  margin-left: 10px;
+  width: 280px;
 }
 
 body  .tbody-3 a{
